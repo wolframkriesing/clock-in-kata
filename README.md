@@ -1,2 +1,5 @@
-# clock-in-kata
-Clock-in kata, for practicing writing (tests with) Promises
+# Clock-in kata
+
+Practice writing (tests with) Promises.
+
+# 

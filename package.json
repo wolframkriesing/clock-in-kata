@@ -1,0 +1,26 @@
+{
+  "name": "clock-in-kata",
+  "version": "1.0.0",
+  "description": "Clock-in kata, for practicing writing (tests with) Promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register src",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolframkriesing/clock-in-kata.git"
+  },
+  "author": "Wolfram Kriesing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolframkriesing/clock-in-kata/issues"
+  },
+  "homepage": "https://github.com/wolframkriesing/clock-in-kata#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "mocha": "^2.4.5"
+  }
+}
