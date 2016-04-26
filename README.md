@@ -42,6 +42,7 @@ If you want to get more challenging you can go the next steps like this:
 
 [ava]: https://github.com/sindresorhus/ava
 [ava-promise]: https://github.com/sindresorhus/ava#promise-support
+[tap]: http://www.node-tap.org/
 [tap-promises]: http://www.node-tap.org/promises/
 [chai]: http://chaijs.com/
 [chai-as-promised]: https://github.com/domenic/chai-as-promised
