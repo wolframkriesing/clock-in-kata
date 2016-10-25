@@ -14,13 +14,13 @@ describe('time tracking', () => {
       sendClockIn(gpsIsAvailable)
     );
 
-    it('sends clock-in with coordinates when GPS is available', (done) => {
+    it('sends clock-in with coordinates when GPS is available', () => {
     });
 
-    it('does NOT send clock-in when no GPS is available', (done) => {
-      sendClockIn(gpsIsNotAvailable)
+    it('does NOT send clock-in when no GPS is available', () => {
+      return sendClockIn(gpsIsNotAvailable)
         .then(() => assert(false, 'Promise should have been rejected'))
-        .catch(done);
+        .catch();
     });
 
     it('warns the user when no GPS is available', () => {
